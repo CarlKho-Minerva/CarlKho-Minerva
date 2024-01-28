@@ -1,1 +1,1 @@
-https://github.com/CarlKho-Minerva/CarlKho-Minerva/assets/106736711/![Carl Kho Portfolio 2023 optimize](https://github.com/CarlKho-Minerva/CarlKho-Minerva/assets/106736711/9c59dd34-1ecc-4ce7-a1e7-96c5f0ddd0d5)
+![Carl Kho - Portfolio '24](https://github.com/CarlKho-Minerva/CarlKho-Minerva/assets/106736711/5e168a5a-3995-4394-ab92-b02fffd0f9d9)

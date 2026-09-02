@@ -17,8 +17,28 @@
 
 - **Somach: Silent Speech Interface**: Redefining HCI by capturing "subvocalization" using ~$30 hardware; recreating MIT's Alter Ego using commodity heart sensors.
 - **Padayon Ko: Semantic Search for Scholarships**: Implemented high-dimensional vector embeddings to match student profiles with funding, securing **$95,050+** for myself, the first user.
-- **Pareto-Optimal Models for Low-Cost EMG Control**: Authored **TechRxiv** preprint proving Random Forest viability for ESP32 bio-control (**Pending arXiv**).
+- **Pareto-Optimal Models for Low-Cost EMG Control**: [arXiv:2601.06516](https://arxiv.org/abs/2601.06516), live since January 2026. 18 models, 1.54M datapoints, showing simple models are Pareto-optimal for real-time EMG gesture recognition on low-cost microcontrollers. One live preprint; two further manuscripts are in preparation and not yet submitted.
 - **Hyperbolic Infrastructure Agent**: Won **Coinbase Hackathon** + $1,000 commission for "Rent 8 H100s" voice bot; 20x provisioning speedup.
+
+### Building now
+
+Two Delaware C corporations I founded and run:
+
+- **Somach Systems, Inc.** — voluntary silent-speech input. A wearable that reads the muscle activity of speech you articulate but never voice, and turns it into text. Evidence so far: a $35 two-channel sEMG rig, 4,033 CSV files, 1.54M datapoints, and a six-class classifier at 51.8% ± 2.8% (N=1).
+- **The Mildly Useful Company** — small tools that do one thing. First product shipped: [Bottomless](https://github.com/CarlKho-Minerva), a Chrome extension that captures a full page in one render pass, roughly 100x faster than scroll-and-stitch.
+
+### 2026 in systems
+
+Most of this year went into the operating system for my own work, then into writing it down. **[40 case studies](https://somach.vercel.app/projects)**, each with what forced the architecture and the mistakes worth keeping. A few:
+
+| | |
+| :--- | :--- |
+| **Life OS** | 53 scheduled agents with a zero-dependency dead-man's switch on separate hardware. Built after every automation I owned failed silently for five weeks while a wrapper printed a green checkmark and exited 0. |
+| **Voice to Obsidian** | Fully local capture: MLX Whisper at 22x real time into a 31B extractor into a task graph. Designed against a habit tracker that scored 0/7 for twenty straight weeks, so nothing in it needs daily upkeep. |
+| **Blackout** | A privacy console for nine recorders on my own machine, with no bare "off" in its state model. Written because the control I had reported success for work it never did. |
+| **recall** | A memory index where a 12-week behavioural simulation proved three of my tuning constants wrong, including one "tiebreaker" that was changing the top result for 28% of queries. |
+
+**Paper 1 in progress**: a volume-conductor model asking which speech muscles are visible from behind the ear. The answer is a negative result, and reporting it as one is the point.
 
 ### Education
 
@@ -37,7 +57,7 @@
 
 
 # Think I'm a good fit? [**View Portfolio**](https://www.carlkho.com/)
-[Read Resume](https://docs.google.com/document/d/1R5L4TyiJIK9jTlImP-5pJjgjM3AtbqVkYey5VOIyeD8/edit) — I study in 7 countries for my ComSci + NeuroSci Undergrad degree.
+[Read Resume](https://gist.github.com/CarlKho-Minerva/1b81b59bee4365c75b0ede595300e330) — I studied in 7 countries for my ComSci + NeuroSci undergrad degree, and graduated May 2026.
 
 [![Carl K](https://github.com/CarlKho-Minerva/CarlKho-Minerva/assets/106736711/cf4c1208-de03-4348-96af-8dd01b437a85)](https://www.carlkho.com/)
 
